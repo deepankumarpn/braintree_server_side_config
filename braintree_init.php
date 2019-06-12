@@ -7,7 +7,7 @@ if(file_exists(__DIR__ . "/../.env"))
 	$dotenv->load();
 }
 Braintree_Configuration::environment('sandbox');
-Braintree_Configuration::merchantId('fbqbbsf4c63yj7wp');
-Braintree_Configuration::publicKey('cydwhc7j96wp4fcz');
-Braintree_Configuration::privateKey('f7e1f428f1457171d475f2344e1a3574');
+Braintree_Configuration::merchantId('Yours');
+Braintree_Configuration::publicKey('Yours');
+Braintree_Configuration::privateKey('Yours');
 ?>
